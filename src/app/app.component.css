@@ -1,0 +1,20 @@
+nav { 
+    display: flex;
+    flex-direction: column;
+    position: absolute; 
+    top: 25px;
+    left: 50px;
+}
+
+a:link,
+a:visited { 
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-size: 25px;
+}
+
+a:hover { 
+    background-color: lightgray;
+    color: white;
+}
